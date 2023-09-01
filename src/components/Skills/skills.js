@@ -20,14 +20,14 @@ const Skills = () => {
             <div className='skillBar'>
                 <img src={WebDesign} alt='WebDesign' className='skillBarImg'/>
                 <div className='skillBarText'>
-                    <h2></h2>
+                    <h2>Website design</h2>
                     <p>This is a demo text, you can write your own content</p>
                 </div>
             </div>
             <div className='skillBar'>
                 <img src={AppDesign} alt='AppDesign' className='skillBarImg'/>
                 <div className='skillBarText'>
-                    <h2></h2>
+                    <h2>App design</h2>
                     <p>This is a demo text, you can write your own content</p>
                 </div>
             </div>
