@@ -12,7 +12,7 @@ const Works = () => {
     <section id='works'>
         <h2 className='worksTitle'>My Portfolio</h2>
         <span className='worksDesc'>I take pride in playing attetion to the smallest details and making sure that my works is pixel perfect. I am excited to bring my skill and experience to help businesses achive their goals and create a strong online presence</span>
-        <div className='workImgs'>
+        <div className='worksImgs'>
             <img src={Portfolio1} alt='' className='worksImg'/>
             <img src={Portfolio2} alt='' className='worksImg'/>
             <img src={Portfolio3} alt='' className='worksImg'/>
