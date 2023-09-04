@@ -1,13 +1,17 @@
 import React from 'react';
-import './contact.css'
+import './contact.css';
 import client1 from '../../assets/client-1.png';
 import client2 from '../../assets/client-2.png';
 import client3 from '../../assets/client-3.png';
 import client4 from '../../assets/client-4.png';
+import LinkedInIcon from '../../assets/linkedin-icon.png';
+import GitHubIcon from '../../assets/github-icon.png';
+import TwitterIcon from '../../assets/twitter-icon.png';
+import YouTubeIcon from '../../assets/youtube-icon.png';
 
 const  Contact = () => {
   return (
-    <section className='contactPage'>
+    <section id='contactPage'>
         <div id='clients'>
             <h1 className='contactPageTitle'>My Clients</h1>
             <p className=''>
@@ -22,7 +26,20 @@ const  Contact = () => {
             </div>
         </div>
         <div id='contact'>
-
+            <h1 className='contactPageTitle'>Contact Me</h1>
+            <span className='contactDesc'> Please fill out the form below to discuss any work opportunities</span>
+            <form className='contactForm'>
+                <input type='text' className='name' placeholder='Your Name'/>
+                <input type='email' className='email' placeholder='Your Email'/>
+                <textarea className='msg' name='message' rows="5" placeholder='Your Message'></textarea>
+                <button type='submit' value="Send" className='submitBtn'>Submit</button>
+                <div className='links'>
+                    <img src={LinkedInIcon} alt='LinkedIn' className='link'/>
+                    <img src={GitHubIcon} alt='GitHub' className='link'/>
+                    <img src={TwitterIcon} alt='Twitter' className='link' />
+                    <img src={YouTubeIcon} alt='YouTube' className='link' />
+                </div>
+            </form>
         </div>
     </section>
 
