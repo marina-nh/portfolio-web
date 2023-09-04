@@ -52,4 +52,7 @@
         height: 48vw;
 
     }
+    .worksImgs {
+        max-width: 23rem;
+    }
 }
