@@ -15,7 +15,7 @@
     object-fit: cover;
     height: 60vh;
     width: 60vh;
-    box-shadow: 0px 0px 10px #F6B17A;
+    box-shadow: 0px 0px 20px black;
 }
 
 .introContent {
@@ -29,10 +29,7 @@
     justify-content: center;
 }
 
-.hello {
-    font-size: 1.75rem;
-    font-weight: 100;   
-}
+
 
 .introName { 
     color: #F6B17A;
@@ -63,10 +60,13 @@
         right: -10vw;
     }
     .introContent {
-        font-size: 10vw;
+        font-size: 7vw;
     }
-    .hello {
-        font-size: 4.5vw;
+    .introPara{
+        font-size: small;
+    }
+    .btn {
+        padding: 0.40rem 1rem;
     }
 }
 

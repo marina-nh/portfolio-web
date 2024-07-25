@@ -17,23 +17,22 @@ const Works = () => {
         <a href='https://hotel-sort.vercel.app/'>
           <img src={Portfolio1} alt='' className='worksImg' />
         </a>
-        <a href='https://hotel-las-violetas.vercel.app/'>
+        <a href='https://ay-n-velas.vercel.app/'>
           <img src={Portfolio2} alt='' className='worksImg' />
         </a>
         <a href='https://sierrasolcabanas.netlify.app'>
           <img src={Portfolio3} alt='' className='worksImg' />
         </a>
-        <a href='ropa-para-ti.vercel.app'>
+        <a href='https://deco-gamma.vercel.app/'>
           <img src={Portfolio4} alt='' className='worksImg' />
         </a>
-        <a href='https://deco-gamma.vercel.app/'>
+        <a href='https://hotel-las-violetas.vercel.app/'>
           <img src={Portfolio5} alt='' className='worksImg' />
         </a>
         <a href='https://ay-n-velas.vercel.app/'>
           <img src={Portfolio6} alt='' className='worksImg' />
         </a>
       </div>
-      <button className='workBtn'>See more</button>
     </section>
   )
 }

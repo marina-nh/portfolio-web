@@ -12,7 +12,7 @@ const Intro = () => {
         <p className='introPara'>Passionate about transforming ideas into innovative digital solutions. 
         <br />Specializing in intuitive applications and dynamic websites, 
         <br />I am committed to delivering technical excellence <br />and innovation in every project to exceed expectations.</p>
-        <Link><button className='btn'><img src={btnImg} alt='Hire' className='btnImg' />Hire me</button></Link>
+        <Link to='contact' smooth={true} duration={500}><button className='btn'><img src={btnImg} alt='Hire' className='btnImg' />Hire me</button></Link>
       </div>
       <img src={bg} alt='Profile' className='bg' />
     </section>

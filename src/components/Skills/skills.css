@@ -53,9 +53,16 @@
 
 
 @media screen and (max-width:720px){
+    .skillTitle {
+        font-size: 2.5rem;
+        padding-top: 0.1rem;  
+    }
     .skillBarText>p {
         font-size: 2vw;
 
+    }
+    .skillDesc {
+        font-size: 0.9rem;
     }
 }
 

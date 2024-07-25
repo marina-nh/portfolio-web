@@ -45,21 +45,25 @@
     cursor: pointer;
 }
 
-.workBtn {
-    margin: 3rem 22rem;
-    padding: 0.5rem 2.5rem;
-    border: none;
-    border-radius: 2rem;
-    background: white;
-    font-size: 1rem;
-}
 
 @media screen and (max-width: 585px) {
+    .worksTitle {
+        font-size: 2.5rem;     
+    }
+    .worksSubTitle{
+        margin: 1rem;
+        font-size: 2rem;
+    }
+
     .worksImg {
-        height: 48vw;
+        height: 55vw;
 
     }
     .worksImgs {
         max-width: 23rem;
     }
+    .worksDesc {
+        font-size: 0.9rem;
+    }
+    
 }

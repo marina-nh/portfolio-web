@@ -29,7 +29,7 @@ const Contact = () => {
         <section id='contactPage'>
             <div id='clients'>
                 <h1 className='contactPageTitle'>My Clients</h1>
-                <p className=''>
+                <p className='clientDesc'>
                     I have had the opportunity to work with a diverse group of companies.
                     Some of the notable companies I have worked with includes
                 </p>
@@ -42,7 +42,7 @@ const Contact = () => {
             </div>
             <div id='contact'>
                 <h1 className='contactPageTitle'>Contact Me</h1>
-                <span className='contactDesc'> Please fill out form below to discuss any work opportunities </span>
+                <span className='contactDesc'> I am available for projects and collaborations. Fill out the form so we can discuss how we can work together. </span>
                 <form className='contactForm' ref={form} onSubmit={sendEmail}>
                     <input type='text' className='name' placeholder='Name' name='your_name'/>
                     <input type='email' className='email' placeholder='Email' name='your_email'/>

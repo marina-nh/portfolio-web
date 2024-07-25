@@ -18,6 +18,7 @@
 .clientDesc {
     font-weight: 300;
     font-size: 1rem;
+    text-align: left;
 }
 
 .clientImgs {
@@ -85,4 +86,17 @@
     width: 3rem;
     margin: 0 0.75rem;
     border-radius: 1.5rem;
+}
+
+@media screen and (max-width:720px){
+    .contactPageTitle {
+        font-size: 2.5rem;
+    } 
+    .clientDesc {
+        font-size: 0.9rem;
+    }
+    .contactDesc {
+        font-size: small;
+    }
+       
 }
