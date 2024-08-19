@@ -2,6 +2,8 @@
 
 This is my personal portfolio developed in React, showcasing my most recent projects as a software developer. The purpose of this portfolio is to provide an overview of my experience, skills, and work in various areas of web development.
 
+You can view the live version at [www.marinanunez.tech](https://www.marinanunez.tech).
+
 ## Features
 
 - **Built with React:** The application is built using React, providing a dynamic and responsive user experience.
