@@ -1,35 +1,39 @@
 #intro {
+    padding-top: 12rem;
     height: calc(100vh - 4rem);
     width: 100vw;
-    max-width: 75rem;
+    /*max-width: 75rem;*/
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .bg {
     position: absolute;
-    top: 7rem;
-    right: 5%;
+    top: 4rem;
+    right: 42.5%;
     z-index: -3;
     object-fit: cover;
-    height: 60vh;
-    width: 60vh;
-    box-shadow: 0px 0px 20px black;
+    height: 30vh;
+    width: 30vh;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 100%;
+    transition: all 0.3s ease-in-out; /* Animación suave para cambios */
 }
 
 .introContent {
     height: 100vh;
     width: 100vw;
-    padding: 2rem;
+    margin-top: 8%;
+    padding: 1.5rem;
     font-size: 3rem;
     font-weight: 700;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
-
-
 
 .introName { 
     color: #F6B17A;
@@ -55,23 +59,28 @@
     height: 1rem;
 }
 
-@media screen and (max-width:840px){
+/* Media query para pantallas medianas */
+@media screen and (max-width: 840px) {
     .bg {
-        right: -10vw;
+        height: 25vh; /* Reduce tamaño */
+        width: 25vh;
+        right: 30vw; /* Ajusta posición */
     }
     .introContent {
-        font-size: 7vw;
+        margin-top: 20%;
+        font-size: 2rem;
     }
-    .introPara{
-        font-size: small;
-    }
-    .btn {
-        padding: 0.40rem 1rem;
-    }
+    
 }
 
-@media screen and (max-width:480px){
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 480px) {
     .bg {
-        right: -20vw;
+        height: 20vh; /* Tamaño más pequeño */
+        width: 20vh;
+        top: 6rem; /* Ajuste vertical */
+        right: auto; /* Centra horizontalmente */
+        left: 50%; /* Centra horizontalmente */
+        transform: translateX(-50%); /* Centrado exacto */
     }
 }

@@ -10,9 +10,9 @@ import Portfolio6 from '../../assets/portfolio-6.png'
 const Works = () => {
   return (
     <section id='works'>
-      <h2 className='worksTitle'>My portfolio</h2>
+      <h2 className='worksTitle'>Mi Portfolio</h2>
       <h3 className='worksSubTitle'>Full Stack</h3>
-      <span className='worksDesc'>I take pride in playing attetion to the smallest details and making sure that my works is pixel perfect. I am excited to bring my skill and experience to help businesses achive their goals and create a strong online presence</span>
+      <span className='worksDesc'> Proyectos que destacan por su diseño moderno, funcionalidad optimizada y enfoque en los detalles. Desde desarrollo web Full Stack hasta tiendas online y aplicaciones interactivas, cada trabajo está diseñado para impulsar negocios y crear una sólida presencia digital.</span>
       <div className='worksImgs'>
         <a href='https://hotel-sort.vercel.app/'>
           <img src={Portfolio1} alt='' className='worksImg' />

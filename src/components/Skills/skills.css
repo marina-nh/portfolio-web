@@ -10,6 +10,7 @@
 
 }
 
+
 .skillTitle {
     font-size: 3rem;
     font-weight: 600;
@@ -50,7 +51,12 @@
     font-size: 0.9rem;
     font-weight: 200;
 }
-
+.icons {
+    display: flex;
+    justify-content:flex-start; /* Centra los iconos horizontalmente */
+    gap: 25px; /* Agrega espacio entre los iconos */
+    margin: 10px 0; /* Ajusta el margen si es necesario */
+}
 
 @media screen and (max-width:720px){
     .skillTitle {

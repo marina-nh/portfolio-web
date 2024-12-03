@@ -28,10 +28,10 @@ const Contact = () => {
     return (
         <section id='contactPage'>
             <div id='clients'>
-                <h1 className='contactPageTitle'>My Clients</h1>
+                <h1 className='contactPageTitle'>Marcas de Confianza</h1>
                 <p className='clientDesc'>
-                    I have had the opportunity to work with a diverse group of companies.
-                    Some of the notable companies I have worked with includes
+                He tenido el privilegio de colaborar con empresas líderes y reconocidas en sus sectores. 
+                Cada proyecto ha sido una oportunidad para aportar valor y fortalecer su presencia en el ámbito digital. Estas marcas reflejan la calidad y el compromiso que definen mi trabajo.
                 </p>
                 <div className='clientImgs'>
                     <img src={client1} alt='' className='clientImg' />
@@ -41,13 +41,13 @@ const Contact = () => {
                 </div>
             </div>
             <div id='contact'>
-                <h1 className='contactPageTitle'>Contact Me</h1>
-                <span className='contactDesc'> I am available for projects and collaborations. Fill out the form so we can discuss how we can work together. </span>
+                <h1 className='contactPageTitle'>Contáctame</h1>
+                <span className='contactDesc'>Estoy disponible para proyectos y colaboraciones. Rellena el formulario y conversemos sobre cómo podemos trabajar juntos.</span>
                 <form className='contactForm' ref={form} onSubmit={sendEmail}>
-                    <input type='text' className='name' placeholder='Name' name='your_name'/>
+                    <input type='text' className='name' placeholder='Nombre' name='your_name'/>
                     <input type='email' className='email' placeholder='Email' name='your_email'/>
-                    <textarea className='msg' name='message' rows="5" placeholder='Message'></textarea>
-                    <button type='submit' value="Send" className='submitBtn'>Submit </button>
+                    <textarea className='msg' name='message' rows="5" placeholder='Mensaje'></textarea>
+                    <button type='submit' value="Send" className='submitBtn'>Enviar </button>
                     <div className='links'>
                         <a href='https://www.linkedin.com/in/marina-r-nunez/'><img src={LinkedInIcon} alt='LinkedIn' className='link' /></a>
                         <a href='https://github.com/marina-nh'><img src={GitHubIcon} alt='GitHub' className='link' /></a>

@@ -8,11 +8,18 @@ const Intro = () => {
   return (
     <section id='intro'>
       <div className='introContent'>
-        <span className='introText'><span className='introName'>Marina</span><br />Software Developer </span>
-        <p className='introPara'>Passionate about transforming ideas into innovative digital solutions. 
-        <br />Specializing in intuitive applications and dynamic websites, 
-        <br />I am committed to delivering technical excellence <br />and innovation in every project to exceed expectations.</p>
-        <Link to='contact' smooth={true} duration={500}><button className='btn'><img src={btnImg} alt='Hire' className='btnImg' />Hire me</button></Link>
+        <div>
+          <p className='introPara'>¡Hola! Mi nombre es Marina</p>
+          <div>
+            <span className='introText'><span className='introName'>Desarroladora</span><br />Full Stack</span>
+          </div>
+          <div>
+            <p className='introPara'>  Apasionada por crear soluciones tecnológicas que marcan la diferencia.
+              <br />Comprometida con el desarrollo de software de alta calidad, <br/> utilizando las mejores prácticas y tecnologías actuales. 
+              <br /> <br />Si buscas colaboración o estás interesado/a en contratarme, ¡Contáctame y trabajemos juntos!</p>
+          </div>
+        <Link to='contact' smooth={true} duration={500}><button className='btn'><img src={btnImg} alt='Hire' className='btnImg' />Visita mi perfil</button></Link>
+        </div>
       </div>
       <img src={bg} alt='Profile' className='bg' />
     </section>
