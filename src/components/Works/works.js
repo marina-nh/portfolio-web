@@ -29,7 +29,7 @@ const Works = () => {
         <a href='https://hotel-las-violetas.vercel.app/'>
           <img src={Portfolio5} alt='' className='worksImg' />
         </a>
-        <a href='https://ay-n-velas.vercel.app/'>
+        <a href='https://dino-pasteleria-artesanal.vercel.app/'>
           <img src={Portfolio6} alt='' className='worksImg' />
         </a>
       </div>
