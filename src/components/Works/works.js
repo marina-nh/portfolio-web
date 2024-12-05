@@ -12,7 +12,7 @@ const Works = () => {
     <section id='works'>
       <h2 className='worksTitle'>Mi Portfolio</h2>
       <h3 className='worksSubTitle'>Full Stack</h3>
-      <span className='worksDesc'> Proyectos que destacan por su diseño moderno, funcionalidad optimizada y enfoque en los detalles. Desde desarrollo web Full Stack hasta tiendas online y aplicaciones interactivas, cada trabajo está diseñado para impulsar negocios y crear una sólida presencia digital.</span>
+      <span className='worksDesc'>Proyectos que destacan por su diseño moderno, funcionalidad optimizada y enfoque en los detalles. Desde desarrollo web Full Stack hasta tiendas online y aplicaciones interactivas, cada trabajo está diseñado para impulsar negocios y crear una sólida presencia digital.</span>
       <div className='worksImgs'>
         <a href='https://hotel-sort.vercel.app/'>
           <img src={Portfolio1} alt='' className='worksImg' />
