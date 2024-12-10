@@ -16,7 +16,7 @@ const Intro = () => {
           <div>
             <p className='introPara'>  Apasionada por crear soluciones tecnológicas que marcan la diferencia.
               <br />Comprometida con el desarrollo de software de alta calidad, <br/> utilizando las mejores prácticas y tecnologías actuales. 
-              <br /> <br />Si buscas colaboración o estás interesado/a en contratarme, 
+              <br /><br />Si buscas colaboración o estás interesado/a en contratarme, 
               <br />¡Contáctame y trabajemos juntos!</p>
           </div>
         <Link to='contact' smooth={true} duration={500}><button className='btn'><img src={btnImg} alt='Hire' className='btnImg' />Visita mi perfil</button></Link>
